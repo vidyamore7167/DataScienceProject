@@ -1,4 +1,3 @@
-cat << 'EOF' > program2.py
 def is_palindrome(s):
     # Clean the string: remove spaces and convert to lowercase
     clean_s = "".join(s.split()).lower()
@@ -9,4 +8,3 @@ if is_palindrome(test_str):
     print(f"'{test_str}' is a palindrome")
 else:
     print(f"'{test_str}' is not a palindrome")
-EOF
